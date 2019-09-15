@@ -1,6 +1,6 @@
-def hello_func():
-	""" Функция выдает сообщение Привет Мир """
+def hello_func(name):
+	""" Функция выдает сообщение Привет (Имя человека)"""
 
-    print("Hello world!")
+    print("Hello, ", name)
 
-hello_func()
+hello_func("John")
